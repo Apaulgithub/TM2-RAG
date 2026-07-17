@@ -4,7 +4,7 @@ __pycache__/
 *$py.class
 
 # Large files and datasets
-data/
+/data/
 cloudflared-linux-amd64.deb
 mimic-cxr-2.0.0-metadata.csv
 
