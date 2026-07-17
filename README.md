@@ -1,4 +1,6 @@
-# TM2-RAG: Temporal Multimodal Retrieval-Augmented Generation
+# TM2-RAG: Temporal Multimodal Medical Retrieval-Augmented Generation
+
+![MasterHead](images/TRAG.png)
 
 Welcome to the TM2-RAG repository. This project implements a comprehensive, multimodal, and time-aware retrieval-augmented generation pipeline tailored for longitudinal clinical data (such as chest X-rays and their corresponding radiology reports). 
 
@@ -104,3 +106,11 @@ streamlit run app.py
 ```
 
 This will launch a web interface where you can input real-time text and multimodal chest X-rays, query the system, perform longitudinal trajectory analysis, and generate explainable clinical findings.
+
+![TM2-RAG Demo](images/Generated_reports_page-0001.jpg)
+
+---
+
+## Author
+
+- [Arindam Paul](https://www.linkedin.com/in/arindam-paul-19a085187/)
