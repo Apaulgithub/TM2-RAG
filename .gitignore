@@ -1,0 +1,23 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Large files and datasets
+data/
+cloudflared-linux-amd64.deb
+mimic-cxr-2.0.0-metadata.csv
+
+# Model weights / LoRA adapters
+minicpm-v-4.6_temporal_lora/
+nv-reason-cxr-3b_temporal_lora/
+qwen2.5-vl-3b_temporal_lora/
+
+# Environment / Agent files
+.agents/
+__huggingface_repos__.json
+
+# Junk files
+=0.46.1
+=4.49.0
+push_to_github.sh
