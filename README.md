@@ -1,10 +1,12 @@
-# TM2-RAG: Temporal Multimodal Medical Retrieval-Augmented Generation
+# TM²-RAG: Temporal Multimodal Medical Retrieval-Augmented Generation
 
 ![MasterHead](images/TRAG.png)
 
-Welcome to the TM2-RAG repository. This project implements a comprehensive, multimodal, and time-aware retrieval-augmented generation pipeline tailored for longitudinal clinical data (such as chest X-rays and their corresponding radiology reports). 
+Welcome to the TM²-RAG repository. This project implements a comprehensive, multimodal, and time-aware retrieval-augmented generation pipeline tailored for longitudinal clinical data (such as chest X-rays and their corresponding radiology reports). 
 
-This guide will walk you through the end-to-end process of running the full TM2-RAG system pipeline, starting from raw data ingestion all the way to interactive inference via our Streamlit application.
+This guide will walk you through the end-to-end process of running the full TM²-RAG system pipeline, starting from raw data ingestion all the way to interactive inference via our Streamlit application.
+
+The full paper link will be available soon.
 
 ## Prerequisites
 
@@ -96,7 +98,7 @@ We process visual inputs (specifically handling multiple views like AP and LV) a
     python src/fusion/build_fusion_index.py
     ```
 
-## Running the TM2-RAG Application
+## Running the TM²-RAG Application
 
 Once the entire offline data pipeline is executed and all indices and vector stores are built, you can run the interactive Chatbot interface. The application relies on `Phase 5A` (Query Processor) and `Phase 5B` (Time-Aware Retriever) at runtime to fetch the most relevant context for generation.
 
@@ -107,7 +109,7 @@ streamlit run app.py
 
 This will launch a web interface where you can input real-time text and multimodal chest X-rays, query the system, perform longitudinal trajectory analysis, and generate explainable clinical findings.
 
-![TM2-RAG Demo](images/Generated_reports_page-0001.jpg)
+![TM²-RAG Demo](images/Generated_reports_page-0001.jpg)
 
 ---
 
