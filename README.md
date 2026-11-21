@@ -6,7 +6,7 @@ Welcome to the TM²-RAG repository. This project implements a comprehensive, mul
 
 This guide will walk you through the end-to-end process of running the full TM²-RAG system pipeline, starting from raw data ingestion all the way to interactive inference via our Streamlit application.
 
-The full paper link will be available soon.
+This work is accepted at FIRE 2026: 18th meeting of the Forum for Information Retrieval Evaluation. The full paper link will be available soon.
 
 ## Prerequisites
 
