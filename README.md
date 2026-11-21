@@ -115,4 +115,4 @@ This will launch a web interface where you can input real-time text and multimod
 
 ## Author
 
-- [Arindam Paul](https://www.linkedin.com/in/arindam-paul-19a085187/)
+- [Arindam Paul](https://www.linkedin.com/in/arindam-paul-19a085187/) and [Dipankar Das](https://www.linkedin.com/in/dipankar-das-4788762a/)
